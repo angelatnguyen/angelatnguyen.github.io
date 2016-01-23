@@ -154,6 +154,10 @@ h2 {
     padding-bottom: 5rem;
 }
 
+.project {
+    padding-bottom: 5rem;
+}
+
 @media screen and (max-width: 39.9375em) {
     .projects {
         text-align: center;
