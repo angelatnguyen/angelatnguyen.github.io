@@ -113,6 +113,12 @@ header {
     box-shadow: 0 7px 0 #8AB29F, 0 14px 0 #8AB29F;
 }
 
+@media screen and (min-width: 40em) {
+    .no-js .title-bar {
+        display: none;
+    }
+}
+
 /* Projects */
 
 .projects {
