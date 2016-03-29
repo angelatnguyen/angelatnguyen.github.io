@@ -61,14 +61,16 @@ header {
     letter-spacing: 1px;
 }
 
+/* Social Menu */
+.social-icon {
+    font-size: 24px;
+}
 
-/* Navigation */
-
-#main-menu li {
+#social-menu li {
     text-align: center;
 }
 
-#main-menu li a {
+#social-menu li a {
     color: #fff;
     font-size: 14px;
     letter-spacing: 2px;
@@ -76,15 +78,11 @@ header {
 }
 
 @media screen and (min-width: 40em) {
-    #main-menu li a:hover {
+    #social-menu li a:hover {
         background-color: #fff;
         color: #8AB29F;
     }
 }
-
-#main-menu li a:focus {
-        color: #8AB29F;
-    }
 
 /* About */
 
