@@ -121,6 +121,32 @@ header {
     }
 }
 
+/* About */
+
+@media screen and (min-width: 40em) {
+    .about {
+        padding: 15px 0 15px 25%;
+    }
+}
+
+.about-description {
+    margin-bottom: 0;
+    padding: 50px 100px;
+    line-height: 50px;
+    font-family: 'Arvo', serif;
+    font-size: 24px;
+    color: #5e5e5e;
+}
+
+@media screen and (max-width: 39.9375em) {
+    .about-description {
+        font-size: 16px;
+        text-align: center;
+        line-height: 30px;
+        padding: 50px;
+    }
+}
+
 /* Projects */
 
 .projects {
