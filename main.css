@@ -57,22 +57,12 @@ header {
     font-size: 11px;
     color: #fff;
     text-align: center;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
     letter-spacing: 1px;
 }
 
 
 /* Navigation */
-
-.title-bar {
-    background: #fff;
-    padding: 1rem;
-}
-
-.menu-icon {
-    float: right;
-    width: 25px;
-}
 
 #main-menu li {
     text-align: center;
@@ -95,31 +85,6 @@ header {
 #main-menu li a:focus {
         color: #8AB29F;
     }
-
-.menu-icon {
-    float: none;
-    display: block;
-    margin-left: auto !important;
-    margin-right: auto !important;
-}
-
-.menu-icon::after {
-    content: '';
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 2px;
-    background: #8AB29F;
-    top: 0;
-    left: 0;
-    box-shadow: 0 7px 0 #8AB29F, 0 14px 0 #8AB29F;
-}
-
-@media screen and (min-width: 40em) {
-    .no-js .title-bar {
-        display: none;
-    }
-}
 
 /* About */
 
