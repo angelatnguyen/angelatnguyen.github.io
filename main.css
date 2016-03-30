@@ -84,14 +84,6 @@ header {
     }
 }
 
-/* About */
-
-@media screen and (min-width: 40em) {
-    .about {
-        padding: 15px 0 15px 25%;
-    }
-}
-
 /* Projects */
 
 .projects {
