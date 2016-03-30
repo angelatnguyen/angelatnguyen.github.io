@@ -154,6 +154,11 @@ header {
     margin-bottom: 50px;
 }
 
+.arrow {
+    color: #8AB29F;
+    margin-right: 5px;
+}
+
 /* Footer */
 
 footer {
